@@ -1,0 +1,26 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:url(./pk-background.png);
+    background-size: cover;
+    text-align: center;
+    color:white;
+}
+
+#board{
+    height:532px;
+    width: 475px;
+    margin: 0 auto;
+    display:flex;
+    flex-wrap: wrap;
+    background-color: yellowgreen;
+    border: 10px solid lightgreen;
+    border-radius: 5px;
+
+}
+
+.card{
+    height:128px;
+    width: 90px;
+    margin: 2.5px;
+}
+
